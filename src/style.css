@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.nav-main{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       height: 10vh;
+       width: 100%;
+       padding: 0px 2.5%;
+       box-sizing: border-box;
+       border-bottom: 1px solid white ;
+
+}
+.logo-div{
+      display: flex;
+      align-items: center;
+      height: 10vh;
+      justify-content: center;
+
+}
+.logo-name{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding-top: 2% ;
+    color: rgb(4, 199, 234);
+}
+.btn-1{
+    height: 30px;
+    width: 12vh;
+}
+.btn-1 {
+    background-color: transparent;
+    border: 1px solid rgb(200, 202, 202);
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .btn-1:hover {
+    background-color: rgb(245, 89, 17);
+    cursor: pointer;
+  }
+  .btn-2 {
+    background-color: #ff6600;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  .ul-div {
+    margin-top: 1%;
+    -webkit-box-shadow: 0 7px 8px -7px #222;
+    -moz-box-shadow: 0 7px 8px -7px #222;
+    box-shadow: 0 7px 8px -7px #222;
+  }
+  .ul-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .li-list {
+    list-style: none;
+    padding-right: 3%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1%;
+  }
+  
+.img {
+    width: 100%;
+    height: 57vh;
+    position: relative;
+    background-image: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+  }
+  .text {
+    width: 40%;
+    position: absolute;
+    top: 47%;
+    left: 5%;
+  }
+  .h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .para {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .button {
+    border: none;
+    background-color: white;
+    padding: 8px 25px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    border-radius: 3px;
+  }
+
+  .card-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+  }
+  .card-1 {
+    width: 10%;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .card-h3 {
+    font-size: 20px;
+  }
+
+ 
